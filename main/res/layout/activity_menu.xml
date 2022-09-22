@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/hello_toast_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello_toast"
+        android:onClick="startHelloToast"
+        />
+
+    <Button
+        android:id="@+id/text_scrolling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text scrolling"
+        android:onClick="startTextScrolling"/>
+
+    <Button
+        android:id="@+id/implicit_intents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Implicit intents"
+        android:onClick="startImplicitIntents"
+        />
+</LinearLayout>
